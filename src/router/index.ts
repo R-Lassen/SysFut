@@ -10,9 +10,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path:'/cadastro',
-      name:'cadastro',
-      component: () => import ('../views/Cadastro.vue')
+      path: '/cadastro',
+      name: 'cadastro',
+      component: () => import('../views/CadastroView.vue')
     },
     {
       path: '/about',
